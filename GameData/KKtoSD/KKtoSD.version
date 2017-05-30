@@ -1,0 +1,25 @@
+{
+	"NAME": "<i><color=#7080FF>KKtoSD</color></i>",
+	"URL": "https://raw.githubusercontent.com/Sigma88/KKtoSD/master/GameData/KKtoSD/KKtoSD.version",
+	"DOWNLOAD": "https://github.com/Sigma88/KKtoSD/releases/latest",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/Sigma88/KKtoSD/master/Changelog.txt",
+	"GITHUB":
+	{
+		"USERNAME": "Sigma88",
+		"REPOSITORY": "KKtoSD",
+		"ALLOW_PRE_RELEASE": false
+	},
+	"VERSION":
+	{
+		"MAJOR": 0,
+		"MINOR": 1,
+		"PATCH": 0,
+		"BUILD": 0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR": 1,
+		"MINOR": 3,
+		"PATCH": 0
+	}
+}
