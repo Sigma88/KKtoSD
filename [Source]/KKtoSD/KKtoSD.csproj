@@ -37,18 +37,18 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Sigma-Binary\[Source]\KerbalSpaceProgram\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\[References]\KerbalSpaceProgram\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="Kopernicus.Parser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="KerbalKonstructs">
+      <HintPath>..\..\..\[References]\KerbalKonstructs\KerbalKonstructs.dll</HintPath>
+    </Reference>
+    <Reference Include="SigmaDimensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Sigma-Binary\[Source]\Kopernicus\Kopernicus.Parser.dll</HintPath>
-    </Reference>
-    <Reference Include="SigmaDimensions">
       <HintPath>..\..\..\Sigma-Dimensions\[Source]\Distribution\SigmaDimensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Sigma-Binary\[Source]\KerbalSpaceProgram\KSP_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\[References]\KerbalSpaceProgram\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
