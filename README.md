@@ -4,7 +4,7 @@
 **Automatically loads KK groups into SD**
 
 
-Sigma Dimensions KSP Forum Thread: http://forum.kerbalspaceprogram.com/index.php?/topic/126548-0/
+KSP Forum Thread: http://forum.kerbalspaceprogram.com/index.php?/topic/162782-0/
 
 Download Latest Release: https://github.com/Sigma88/KKtoSD/releases/latest
 
