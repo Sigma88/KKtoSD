@@ -12,6 +12,9 @@ namespace KKtoSDPlugin
     {
         void Awake()
         {
+            // Version Check
+            Debug.Log("Sigma Version Check:   KKtoSD v0.1.1");
+
             // Check if KK is installed
             if (AssemblyLoader.loadedAssemblies.FirstOrDefault(a => a.name == "KerbalKonstructs") == null) return;
 
@@ -25,7 +28,7 @@ namespace KKtoSDPlugin
                 string group = KKStatic?.Group;
                 object mod = KKStatic?.pqsCity;
 
-                if (planet == null || string.IsNullOrEmpty(group) || mod == null) continue;
+                if (planet == null || string.IsNullOrEmpty(group) || group == "Ungrouped" || mod == null) continue;
 
 
                 if (!PQSCityGroups.ExternalGroups.ContainsKey(planet))
