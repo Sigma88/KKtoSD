@@ -1,3 +1,8 @@
+**v0.1.2**
+
+- Spawn points are now moved together with their launchsites
+
+
 **v0.1.1**
 
 - "Ungrouped" is no longer considered a valid group name
