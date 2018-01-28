@@ -13,7 +13,7 @@ namespace KKtoSDPlugin
         void Awake()
         {
             // Version Check
-            Debug.Log("[SigmaLog] Version Check:   KKtoSD v0.1.3");
+            Debug.Log("[SigmaLog] Version Check:   KKtoSD v0.1.4");
 
             // Check if KK is installed
             if (AssemblyLoader.loadedAssemblies.FirstOrDefault(a => a.name == "KerbalKonstructs") == null) return;
