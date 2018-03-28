@@ -13,7 +13,7 @@ namespace KKtoSDPlugin
         void Awake()
         {
             // Version Check
-            Debug.Log("[SigmaLog] Version Check:   KKtoSD v0.1.4");
+            Debug.Log("[SigmaLog] Version Check:   KKtoSD v0.1.5");
 
             // Check if KK is installed
             if (AssemblyLoader.loadedAssemblies.FirstOrDefault(a => a.name == "KerbalKonstructs") == null) return;
@@ -28,18 +28,18 @@ namespace KKtoSDPlugin
                 string group = KKStatic?.Group;
                 PQSCity mod = KKStatic?.pqsCity;
 
-                if (planet == null || string.IsNullOrEmpty(group) || group == "Ungrouped" || mod == null) continue;
+                if (planet == null || string.IsNullOrEmpty(group) || mod == null) continue;
 
 
-                if (!PQSCityGroups.ExternalGroups.ContainsKey(planet))
-                    PQSCityGroups.ExternalGroups.Add(planet, new Dictionary<string, List<object>>());
+                if (!PQSCityGroups.ExternalExceptions.ContainsKey(planet))
+                    PQSCityGroups.ExternalExceptions.Add(planet, new Dictionary<string, List<object>>());
 
-                if (!PQSCityGroups.ExternalGroups[planet].ContainsKey(group))
-                    PQSCityGroups.ExternalGroups[planet].Add(group, new List<object>());
+                if (!PQSCityGroups.ExternalExceptions[planet].ContainsKey(group))
+                    PQSCityGroups.ExternalExceptions[planet].Add(group, new List<object>());
 
-                if (!PQSCityGroups.ExternalGroups[planet][group].Contains(mod))
+                if (!PQSCityGroups.ExternalExceptions[planet][group].Contains(mod))
                 {
-                    PQSCityGroups.ExternalGroups[planet][group].Add(mod);
+                    PQSCityGroups.ExternalExceptions[planet][group].Add(mod);
                 }
             }
         }
