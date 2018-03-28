@@ -1,7 +1,7 @@
 {
 	"NAME": "<i><color=#9B59B6>KKtoSD</color></i>",
 	"URL": "https://raw.githubusercontent.com/Sigma88/KKtoSD/master/GameData/KKtoSD/KKtoSD.version",
-	"DOWNLOAD": "http://forum.kerbalspaceprogram.com/index.php?/topic/162782-0/",
+	"DOWNLOAD": "https://www.github.com/Sigma88/KKtoSD/releases/latest",
 	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/Sigma88/KKtoSD/master/Changelog.txt",
 	"GITHUB":
 	{
@@ -13,7 +13,7 @@
 	{
 		"MAJOR": 0,
 		"MINOR": 1,
-		"PATCH": 4,
+		"PATCH": 5,
 		"BUILD": 0
 	},
 	"KSP_VERSION":
